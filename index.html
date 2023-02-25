@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure LogUp System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center text-center my-5" id="displayForm">
+        <div class="login-contain w-75 m-auto p-5">
+            <h1>Smart Login System</h1>
+            <input type="text" required class="form-control my-4 d-block" placeholder="Enter YourName" id="signinName" value="">
+            <input type="email" required class="form-control my-4" placeholder="Enter Your Email" id="signinEmail" value="">
+            <input type="password" required class="form-control my-4" placeholder="Enter Your Password" id="signinPassword" value="">
+            <input type="password" required class="form-control my-4" placeholder="Confim Password" id="signinCpassword" value="">
+            <!-- <p id="incorrect"></p> -->
+
+            <div class="submit-button">
+            <button class="btn btn-outline-info w-100 my-3">LogUp</button>
+            </div>
+            
+            <p class="text-white py-3">You have an account?
+                <a href="login.html" id="signChange">Sign In</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- <div class="home d-none" id="displayWelcome">
+        <nav>
+            <li>
+                <button class="btn btn-outline-danger"><a href="">Login up</a>
+                </button>
+            </li>
+        </nav>
+
+        <div class="container d-flex justify-content-center align-items-center py-5">
+            <h2 id="homeWell">welocme </h2>
+
+        </div>
+    </div> -->
+
+<script src="js/sweetalart.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
